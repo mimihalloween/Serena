@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Messages • Serena</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <section id="inboxView" class="view active">
+    <header class="topbar">
+      <div class="brand">Messages</div>
+      <button class="compose">✎</button>
+    </header>
+    <div class="search">⌕&nbsp;&nbsp;Rechercher</div>
+    <div class="requests">Demandes de messages <span>›</span></div>
+    <div class="thread" onclick="openChat('violette')">
+      <div class="avatar violette">V</div>
+      <div class="thread-body">
+        <div class="thread-top"><b>Violette</b><small>11:45</small></div>
+        <div class="preview">Désolée ❤️</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="chatView" class="view">
+    <header class="topbar chatbar">
+      <button class="back" onclick="closeChat()">‹</button>
+      <div class="chat-contact">
+        <div class="avatar violette">V</div>
+        <div><b>Violette</b><small>Actif(ve) il y a 1 h</small></div>
+      </div>
+      <button class="info">ⓘ</button>
+    </header>
+    <main id="chat"></main>
+    <footer class="composer"><button class="round">＋</button><div class="input">Message…</div><button class="send">➤</button></footer>
+  </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
