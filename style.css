@@ -9,6 +9,7 @@ body{margin:0;background:#e9e9e9;font-family:-apple-system,BlinkMacSystemFont,"S
 .thread{padding:14px 16px;display:flex;align-items:center;gap:12px;border-bottom:1px solid #eee;cursor:pointer}
 .avatar{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
 .violette{background:linear-gradient(135deg,#b89bd2,#6f568b)}
+.logan{background:linear-gradient(135deg,#8c8c8c,#363636)}
 .thread-body{flex:1}.thread-top{display:flex;justify-content:space-between}.thread-top small{color:#999;font-size:11px}
 .preview{margin-top:4px;color:#777;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .chatbar{justify-content:flex-start;gap:10px}.chat-contact{display:flex;align-items:center;gap:9px;flex:1}.chat-contact .avatar{width:38px;height:38px}

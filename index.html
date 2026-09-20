@@ -22,14 +22,21 @@
         <div class="preview">Désolée ❤️</div>
       </div>
     </div>
+    <div class="thread" onclick="openChat('logan')">
+      <div class="avatar logan">L</div>
+      <div class="thread-body">
+        <div class="thread-top"><b>Logan</b><small>22:32</small></div>
+        <div class="preview">Au moins elles restent quand tu changes d'avis</div>
+      </div>
+    </div>
   </section>
 
   <section id="chatView" class="view">
     <header class="topbar chatbar">
       <button class="back" onclick="closeChat()">‹</button>
       <div class="chat-contact">
-        <div class="avatar violette">V</div>
-        <div><b>Violette</b><small>Actif(ve) il y a 1 h</small></div>
+        <div id="contactAvatar" class="avatar violette">V</div>
+        <div><b id="contactName">Violette</b><small id="contactStatus">Actif(ve) il y a 1 h</small></div>
       </div>
       <button class="info">ⓘ</button>
     </header>

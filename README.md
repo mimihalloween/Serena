@@ -1,3 +1,6 @@
 # Serena — Messagerie
 
-Interface vue depuis le compte de Serena, avec une seule conversation : Serena ↔ Violette. Le contenu correspond à la conversation précédente, avec les rôles inversés afin que les messages de Serena soient affichés à droite.
+Interface de messagerie vue depuis le compte de Serena.
+
+Deux conversations sont accessibles depuis la boîte de réception : Violette et Logan.
+La conversation avec Logan reprend les deux échanges validés, avec Serena à droite et Logan à gauche.
